@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family:arial,sans-serif;
 }
+/* header - nav */
 nav{
     padding: 10px;
 }
@@ -42,12 +43,13 @@ img.user-icon{
     background-color: black;
     border-radius: 50%;
 }
-
+/* section-1 */
 .section-1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* section-2 */
 .section-2{
     height: 44px;
     border: 1px solid #dfe1e5;
@@ -56,16 +58,13 @@ img.user-icon{
     max-width: 584px;
     margin-top: 22px;
     position: relative;
+    text-align: center;
 }
-.section-2:hover{
+.section-2 input[type="submit"]:hover{
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
     border-color: rgba(223,225,229,0);
 }
-.div-flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .search-icon{
     position: absolute;
     top: 14px;
@@ -83,7 +82,6 @@ img.user-icon{
     position: absolute;
     top: 0;
     left: 50px;
-    right: 0;
     width: 75%;
     margin: 5px 0;
 }
@@ -102,31 +100,14 @@ img.user-icon{
     font-size: 20px;
     cursor: pointer;
 }
-.translate{
-    text-align: center;
-    line-height: 28px;
-}
-.translate a{
-    color: #1a0dab; 
-   font-size: 13px;
-}
-.translate span{
-    font-size: 13px;
-}
-.section-3 .input-submit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
- input[type="submit"]{
+input[type="submit"]{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
+    margin: 75px 8px 0 0 ;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -140,8 +121,20 @@ input[type="submit"]:hover {
     border: 1px solid #dadce0;
     color: #202124;
 }
-
-
+/* section-3 translate */
+.translate{
+    text-align: center;
+    line-height: 28px;
+    margin-top: 90px;
+}
+.translate a{
+   color: #1a0dab; 
+   font-size: 13px;
+}
+.translate span{
+    font-size: 13px;
+}
+/* footer */
 footer{
     position: fixed;
     bottom: 0;
